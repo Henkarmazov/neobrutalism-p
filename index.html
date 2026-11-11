@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Henkaramazov, a Backend Developer building scalable APIs, server-side applications, and reliable database architectures.">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta property="og:title" content="Henkaramazov — Backend Developer">
+  <meta property="og:description" content="Engineering reliable backend systems, REST APIs, and scalable architectures.">
+  <title>Henkaramazov — Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="top">
+  <!-- Centered Floating Box Navbar -->
+  <header class="floating-header">
+    <nav class="floating-box-nav" id="floating-nav" aria-label="Main navigation">
+      <a class="brand-title" href="#top" aria-label="Henkaramazov, home">
+        Henkaramazov
+      </a>
+
+      <ul class="nav-links" id="floating-menu">
+        <li>
+          <a href="#home" aria-label="Home" title="Home">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1V9.5z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#about" aria-label="About" title="About">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#skills" aria-label="Skills" title="Skills">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="6" rx="1"/>
+              <rect x="2" y="13" width="20" height="6" rx="1"/>
+              <line x1="6" y1="6" x2="6.01" y2="6"/>
+              <line x1="6" y1="16" x2="6.01" y2="16"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#projects" aria-label="Project" title="Project">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" aria-label="Contact" title="Contact">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="floating-menu">
+        <span class="dot dot-1"></span>
+        <span class="dot dot-2"></span>
+        <span class="dot dot-3"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-content reveal">
+          <h1>Engineering Reliable <span>Backend Systems.</span></h1>
+          <p class="hero-copy">I’m Henkaramazov, a backend developer focused on designing resilient server-side architectures, clean RESTful APIs, and optimized databases that power modern applications.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">
+              Explore My Work
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </a>
+            <button class="btn btn--light" id="download-cv" type="button">
+              Download CV
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 20h14"/></svg>
+            </button>
+          </div>
+          <div class="hero-note">
+            <span><strong>Currently open</strong> to freelance &amp; full-time opportunities</span>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Backend developer code illustration">
+          <div class="art-grid" aria-hidden="true"></div>
+          <div class="orbit" aria-hidden="true"></div>
+          <span class="float-tag float-tag--top">BACKEND / 01</span>
+          <div class="art-card">
+            <div class="art-card-top">
+              <span>Server runtime</span>
+              <span>● ● ●</span>
+            </div>
+            <div class="art-code">
+              <div><span class="dim">01</span> const developer = {</div>
+              <div><span class="dim">02</span> &nbsp; name: <span class="accent">"Henkaramazov"</span>,</div>
+              <div><span class="dim">03</span> &nbsp; craft: <span class="accent">"backend"</span>,</div>
+              <div><span class="dim">04</span> &nbsp; focus: "impact"</div>
+              <div><span class="dim">05</span> };</div>
+              <div style="margin-top:14px">developer.build(); <span class="cursor-blink">▌</span></div>
+            </div>
+          </div>
+          <span class="float-tag float-tag--bottom">APIS → DATABASES</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="wrap about-single">
+        <div class="about-copy reveal">
+          <p class="eyebrow">A little about me</p>
+          <h2>Architecting the logic behind the curtain.</h2>
+          <p>I specialize in backend engineering—building the unseen engines that make web applications fast, secure, and dependable. My focus lies in server-side logic, RESTful API design, relational database modeling, and seamless third-party integrations.</p>
+          <p>Whether structuring database schemas in MySQL, crafting modular services with Node.js and Express, or writing clean, type-safe logic in TypeScript and Python, I prioritize maintainability, data integrity, and real-world performance.</p>
+          <div class="stats">
+            <div class="stat">
+              <strong>3<span aria-hidden="true">+</span></strong>
+              <span>Years of learning &amp; building</span>
+            </div>
+            <div class="stat">
+              <strong id="project-count">1</strong>
+              <span>Projects completed</span>
+            </div>
+            <div class="stat">
+              <strong>11</strong>
+              <span>Core Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills / Toolbox Section -->
+    <section class="section skills-section" id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">My toolbox</p>
+            <h2>Good tools.<br>Better outcomes.</h2>
+          </div>
+          <p>A core stack for engineering scalable backend services, managing relational databases, and deploying modern web platforms.</p>
+        </div>
+      </div>
+
+      <div class="toolbox-marquee-wrapper reveal" aria-label="Technology stack marquee">
+        <!-- Baris Atas: Bergerak ke Kanan -->
+        <div class="marquee-row marquee-right">
+          <div class="marquee-track" id="marquee-top"></div>
+        </div>
+        <!-- Baris Bawah: Bergerak ke Kiri -->
+        <div class="marquee-row marquee-left">
+          <div class="marquee-track" id="marquee-bottom"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Things I’ve<br>put into the world.</h2>
+          </div>
+          <p>Real-world applications and platforms loaded dynamically from my project repository.</p>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite">
+          <!-- Di-render otomatis melalui script.js dari ./assets/project.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- The Journey Section -->
+    <section class="section timeline-section" id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">The journey</p>
+            <h2>Learning by building,<br>adapting, and growing.</h2>
+          </div>
+          <p>Learning by building, adapting, and growing through every experience. From learning the fundamentals of web development to exploring backend engineering, gaining real-world work experience, and finding my way back to software development.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2026 — PRESENT</div>
+            <div class="timeline-content">
+              <h3>Backend Developer</h3>
+              <p class="timeline-company">Software Development · Current</p>
+              <p>Focusing on backend development, building server-side applications, designing APIs, and working with databases. Continuously improving technical skills through hands-on development and real-world problem-solving.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2024–2025</div>
+            <div class="timeline-content">
+              <h3>Academic &amp; Professional Development</h3>
+              <p class="timeline-company">School Activities &amp; Hospitality Internship</p>
+              <p>Focused on school responsibilities and practical training while gaining hands-on experience in the hospitality industry. Developed valuable soft skills, including discipline, teamwork, time management, adaptability, and attention to detail in a professional working environment.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2022–2023</div>
+            <div class="timeline-content">
+              <h3>Frontend &amp; Backend Development Learning</h3>
+              <p class="timeline-company">Self-Learning</p>
+              <p>Started my journey in web development by learning HTML, CSS, and JavaScript, then expanded into backend development with Node.js, Express.js, and MySQL. Built a foundation in creating interactive web interfaces, understanding server-side logic, developing REST APIs, and managing databases.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-panel reveal">
+          <p class="eyebrow">Have a good one in mind?</p>
+          <h2>Have a project in mind? Let’s build something great.</h2>
+          <p>Need a reliable backend architecture, REST API integration, or full web platform? Let’s connect and turn your ideas into working systems.</p>
+          <div class="contact-bottom">
+            <a class="contact-email" href="mailto:hendraxyy@gmail.com">hendraxyy@gmail.com</a>
+            <div class="socials">
+              <a href="https://github.com/Henkarmazov" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a href="https://www.instagram.com/hen.draprtm" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+              <a href="https://www.tiktok.com/@henkaramazov" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+            </div>
+            <a class="btn btn--dark" href="mailto:hendraxyy@gmail.com?subject=Let%27s%20build%20something">
+              Start a conversation
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Centered Footer -->
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> <strong>Henkaramazov.</strong> Built with intention.</span>
+      <span>Backend Developer · Engineered with care.</span>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button (Bottom-Right, Muncul Saat Scroll Sampai Bawah) -->
+  <a class="back-top-float" id="back-to-top" href="#top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

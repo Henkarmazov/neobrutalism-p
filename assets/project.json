@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Front-HexTopUp",
+    "image": "./assets/images/hextopup.png",
+    "description": "A modern game top-up platform frontend designed to provide a seamless and user-friendly purchasing experience. Features a clean interface, responsive design, and intuitive navigation for browsing games and purchasing digital products.",
+    "date": "",
+    "skills": ["TypeScript"],
+    "url": "https://hextopup.id",
+    "source": "https://github.com/Henkarmazov"
+  },
+  {
+    "id": 2,
+    "name": "HenkaramazovApi",
+    "image": "./assets/images/henapi.png",
+    "description": "A RESTful API service built to provide reliable and efficient data access through structured endpoints. Designed with scalability and performance in mind, supporting seamless integration with various applications and services.",
+    "date": "",
+    "skills": ["TypeScript", "JavaScript"],
+    "url": "https://api.henkarmazov.my.id",
+    "source": "https://github.com/Henkarmazov"
+  },
+  {
+    "id": 3,
+    "name": "HenVeronime",
+    "image": "./assets/images/henvero.png",
+    "description": "An anime streaming platform that provides the latest shows in the best quality. Enjoy a variety of anime genres, regular updates, and easy access for a comfortable and enjoyable viewing experience.",
+    "date": "",
+    "skills": ["HTML", "JavaScript", "TypeScript"],
+    "url": "https://hen-veronime.vercel.app/",
+    "source": "https://github.com/Henkarmazov/hen-veronime"
+  },
+  {
+    "id": 4,
+    "name": "HenKomiko",
+    "image": "./assets/images/henkomik.png",
+    "description": "A comic reading platform that provides the latest chapters in the best quality. Enjoy a wide variety of genres, regular updates, and an intuitive reading experience for comfortable and enjoyable reading.",
+    "date": "",
+    "skills": ["TypeScript"],
+    "url": "https://hen-komiko.vercel.app/",
+    "source": "https://github.com/Henkarmazov/hen-komiko"
+  },
+  {
+    "id": 5,
+    "name": "Roblox Stalk",
+    "image": "./assets/images/roblox.png",
+    "description": "A Roblox account lookup tool that provides detailed profile information instantly. View user profiles, avatars, account stats, and more with a fast and clean experience.",
+    "date": "",
+    "skills": ["HTML", "TypeScript"],
+    "url": "https://roblox-stalk-three.vercel.app/",
+    "source": "https://github.com/Henkarmazov/roblox-stalk"
+  },
+  {
+    "id": 6,
+    "name": "Hex-AM",
+    "image": "./assets/images/hexam.png",
+    "description": "A web-based platform that provides free 1-year Alight Motion Premium activation for eligible accounts. Enjoy premium features, watermark-free exports, and access to exclusive effects with a simple and convenient activation process.",
+    "date": "",
+    "skills": ["HTML", "TypeScript"],
+    "url": "https://hex-amprem.vercel.app/",
+    "source": "https://github.com/Henkarmazov/hex-amprem"
+  },
+  {
+    "id": 7,
+    "name": "Hex-mail",
+    "image": "./assets/images/hexmail.png",
+    "description": "A temporary email service that allows users to receive emails without using their personal address. Enjoy a simple interface, quick email access, and a convenient way to manage temporary email needs.",
+    "date": "",
+    "skills": ["HTML", "TypeScript"],
+    "url": "https://hex-mail-five.vercel.app/",
+    "source": "https://github.com/Henkarmazov/hex-mail"
+  },
+  {
+    "id": 8,
+    "name": "Hex-Uploader",
+    "image": "./assets/images/hexupld.png",
+    "description": "An image uploading platform that makes sharing images quick and easy. Upload your images, generate shareable URLs, and access your image links through a simple and intuitive interface.",
+    "date": "",
+    "skills": ["HTML", "TypeScript"],
+    "url": "https://hex-uploader-topaz.vercel.app/",
+    "source": "https://github.com/Henkarmazov/hex-uploader"
+  },
+  {
+    "id": 9,
+    "name": "Linktree Modern",
+    "image": "./assets/images/linktree.png",
+    "description": "A modern and responsive link-in-bio platform featuring a clean and minimalist user interface. Designed to showcase social media profiles, personal links, and important resources in one centralized and visually appealing page.",
+    "date": "",
+    "skills": ["HTML"],
+    "url": "https://henkarmazov.github.io/linktree/",
+    "source": "https://github.com/Henkarmazov/linktree"
+  }
+]
